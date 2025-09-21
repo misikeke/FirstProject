@@ -27,17 +27,17 @@ body {
     
 }
 
-.links {
+.links, a {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
     list-style: none;
-    
     display: flex;
     margin: 10px 0px;
     gap: 20px;
-    
 }
+
+
 
 .h1 {
     font-size: 48px;
@@ -61,6 +61,7 @@ body {
     background-color: #1F2937;
     padding: 30px 100px;
     display: flex;
+    justify-content: center;
   
 }
 
@@ -109,10 +110,12 @@ body {
    width: 95px;
    height: 30px;
    align-self: center;
-   
-   
-
     
+}
+
+.mainText {
+    display: flex;
+    justify-content: center;
 }
 
 .button1:active, .button2:active {
